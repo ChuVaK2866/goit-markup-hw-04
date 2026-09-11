@@ -1,0 +1,36 @@
+.features {
+  padding: 120px 0;
+}
+
+.features .sr-only {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.features .feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.features .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.features .features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features .features-list-item {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  gap: 8px;
+}
