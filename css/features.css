@@ -34,3 +34,20 @@
   flex-direction: column;
   gap: 8px;
 }
+
+.features .feature-rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background: #f4f4fd;
+  padding: 24px 100px;
+}
+
+.features .feature-icon {
+  width: 64px;
+  height: 64px;
+}

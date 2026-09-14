@@ -63,4 +63,21 @@
 .header .address-link {
   display: block;
   padding: 24px 0;
+  position: relative;
+  transition: color 250ms ease-in-out;
+}
+
+.header .navigation-link.active {
+  color: #404bbf;
+}
+
+.header .navigation-link.active::after {
+  content: "";
+  border-radius: 2px;
+  height: 4px;
+  background: #404bbf;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
 }
