@@ -2,7 +2,7 @@
   padding: 120px 0;
 }
 
-.portfolio h2 {
+.portfolio .portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -11,24 +11,18 @@
   margin-bottom: 72px;
 }
 
-.portfolio h3 {
+.portfolio .portfolio-small-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
 }
 
-.portfolio ul {
+.portfolio .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 48px 24px;
-}
-
-.portfolio li {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
 }
 
 .portfolio .portfolio-text {
@@ -44,6 +38,13 @@
 
 .portfolio .portfolio-photo {
   display: block;
+}
+
+.portfolio .portfolio-card {
+  transition: box-shadow 250ms ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .portfolio .portfolio-card:hover {
@@ -67,6 +68,7 @@
   color: #f4f4fd;
   transform: translateY(100%);
   transition: transform 250ms ease-in-out;
+  padding: 40px 32px;
 }
 
 .portfolio .portfolio-media {

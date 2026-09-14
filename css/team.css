@@ -70,12 +70,11 @@
   transition: background-color 250ms ease-in-out;
 }
 
-.social-ball:hover {
+.social-ball:hover,
+.social-ball:focus {
   background-color: #404bbf;
 }
 
 .social-icon {
-  width: 16px;
-  height: 16px;
   color: #f4f4fd;
 }
